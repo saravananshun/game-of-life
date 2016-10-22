@@ -15,6 +15,7 @@ public enum Cell {
     }
 
     static Cell fromSymbol(final String symbol) {
+        System.out.println("");
         Cell cellRepresentedBySymbol = null;
         for (Cell cell : Cell.values()) {
             if (cell.symbol.equals(symbol)) {
